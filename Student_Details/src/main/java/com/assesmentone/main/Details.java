@@ -22,7 +22,7 @@ public class Details {
 
 			if (addmisionNum == adm) {
 
-//				int addm = (int) sheet.getRow(i).getCell(0).getNumericCellValue();
+
 
 				String name = sheet.getRow(i).getCell(1).toString();
 				double physicsMarks = sheet.getRow(i).getCell(2).getNumericCellValue();
@@ -70,6 +70,7 @@ public class Details {
 
 				ArrayList<Student> studentList = new ArrayList<Student>();
 				studentList.add(studentOne);
+				System.out.println(studentList);
 
 			}
 
